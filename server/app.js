@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 // get routeres
-const tennisRouter = require("./server/routes/tennis");
+const tennisRouter = require("./routes/tennis");
 
 const app = express();
 
